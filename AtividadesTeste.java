@@ -14,7 +14,7 @@ public class AtividadesTeste {
         System.out.println("E-mail utilizado: " + email);
         System.out.println("Senha digitada: " + senha);
 
-        if (email.equals("felipiamorim14@gmail.com") && senha.equals("Angelaudo2400#")) {
+        if (email.equals(email) && senha.equals(senha)) {
             System.out.println("Login Autorizado");
         } else {
             System.out.println("Acesso Negado!");
